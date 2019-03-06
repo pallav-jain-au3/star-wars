@@ -1,0 +1,97 @@
+body{
+
+  color:white;
+}
+
+
+section,footer{
+  width: 100%;
+  height: 30%;
+}
+#home-page
+{width: 100%;
+background: url(../images/star-war-header.jpg);
+background-attachment: fixed;
+background-position: center center;
+background-size: cover;
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+background-repeat: no-repeat;
+
+}
+#original  {
+   background: url(../images/original.png);
+  background-position: center center;
+  background-size: cover;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+#original .original .original-card img
+{
+  width: 13rem;
+}
+#prequel  {
+   background: url(../images/prequel-background.png);
+  background-position: center center;
+  background-size: cover;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+#prequel .prequel .prequel-card img{
+  width: 13rem;
+}
+#disney-purchase
+{
+background: url(../images/disney-purchase-background.jpg);
+  background-position: center center;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#sequel-trilogy{
+
+  background: url(../images/sequel-background.png);
+  background-position: center center;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+#sequel-trilogy .sequel img{
+width: 13rem;}
+#anthology{
+background: url(../images/anth-background.jpg);
+  background-position: center center;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+#anthology .anth img {
+
+  width: 13rem;
+}
+footer{
+  background-color: black;
+}
+h1{
+  color: yellow;
+}
+.last img{
+  margin:2rem auto;
+}
