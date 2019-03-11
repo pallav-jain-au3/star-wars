@@ -1,6 +1,7 @@
 body {
   color: white;
   overflow-x: hidden;
+  text-transform: uppercase;
 }
 
 .nav-link {
@@ -97,10 +98,12 @@ h3 {
   letter-spacing: .1rem;
   font-weight: 700;
   color: yellow;
+
 }
 
 h4 {
   font-size: 1.5rem;
+  transform: uppercase;
 }
 
 .banner {
@@ -156,7 +159,7 @@ p {
   }
 
   #anthology .row img, #sequel-trilogy .row img, #original .row img, #clone .row img, #disney-purchase .row img {
-    width: 11rem;
+    max-width: 100%;
   }
 
   h3 {
