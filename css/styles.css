@@ -1,176 +1,168 @@
 body {
-  color: white;
-  text-transform: uppercase;
+    color: white;
+    text-transform: uppercase;
 }
 
 .nav-link {
-  font-size: 1.3rem;
+    font-size: 1.3rem;
 }
 
-.navbar-dark .navbar-nav .nav-link {
-  color: white;
-  padding-top: .7rem;
+.nav-link {
+    color: white !important;
 }
 
-.navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link:hover {
-  color: yellow;
+.nav-link:hover {
+    color: yellow !important;
 }
-section{
-  padding: 1% 5%;
+
+section {
+    padding: 3% 6%;
 }
 
 #home-page {
-
-  background: url(../images/star-war-header.jpg);
-  background-attachment: fixed;
-  background-position: center center;
-  background-size: cover;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-repeat: no-repeat;
+    background: url(../images/star-war-header.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-repeat: no-repeat;
 }
 
 #original {
-  background: url(../images/original.png);
-  background-position: center center;
-  background-size: cover;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+    background: url(../images/original.png);
+    background-position: center center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 
 }
 
 #clone {
-  background: url(../images/prequel-background.png);
-  background-position: center center;
-  background-size: cover;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+    background: url(../images/prequel-background.png);
+    background-position: center center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 
 }
 
 #disney-purchase {
-  background: url(../images/disney-purchase-background.jpg);
-  background-position: center center;
-  background-size: cover;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+    background: url(../images/disney-purchase-background.jpg);
+    background-position: center center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 
 }
 
 #sequel-trilogy {
-  background: url(../images/sequel-background.png);
-  background-position: center center;
-  background-size: cover;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+    background: url(../images/sequel-background.png);
+    background-position: center center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 
 }
 
 #anthology {
-  background: url(../images/anth-background.jpg);
-  background-position: center center;
-  background-size: cover;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+    background: url(../images/anth-background.jpg);
+    background-position: center center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 
 }
 
 #anthology .row img, #sequel-trilogy .row img, #original .row img, #clone .row img, #disney-purchase .row img {
-  width: 12rem;
+    width: 12rem;
 }
 
 h3 {
-  font-size: 2rem;
-  letter-spacing: .1rem;
-  font-weight: 700;
-  color: yellow;
+    font-size: 2rem;
+    letter-spacing: .1rem;
+    font-weight: 700;
+    color: yellow;
 
 }
 
 h4 {
-  font-size: 1.5rem;
-  transform: uppercase;
-}
-
-.banner {
-  text-transform: uppercase;
+    font-size: 1.5rem;
 }
 
 .banner img {
-  margin-top: 3rem;
-  max-width: 100%;
+    margin-top: 3rem;
+    max-width: 100%;
 }
+
 .banner h1 {
-  font-size: 3rem;
-  letter-spacing: .1rem;
-  font-weight: 700;
-  text-shadow: .1rem .1rem .3rem white;
-}
-
-.banner h3 {
-  font-size: 2.5rem;
-  letter-spacing: .1rem;
-  font-weight: 700;
-  text-shadow: .1rem .1rem .3rem white;
-  margin-top: 1rem;
-}
-
-.footer {
-  background-color: black;
-  padding: 3rem;
-}
-
-.footer img {
-  max-width: 100%;
-}
-
-p {
-  font-size: .7rem;
-}
-
-@media (max-width: 768px) {
-  .banner h1 {
-    font-size: 1.5rem;
+    font-size: 3rem;
     letter-spacing: .1rem;
     font-weight: 700;
     text-shadow: .1rem .1rem .3rem white;
-  }
+}
 
-  .banner h3 {
-    font-size: 1rem;
+.banner h3 {
+    font-size: 2.5rem;
     letter-spacing: .1rem;
     font-weight: 700;
-    text-shadow: .1rem .1rem .1rem white;
+    text-shadow: .1rem .1rem .3rem white;
     margin-top: 1rem;
-  }
+}
 
-  #anthology .row img, #sequel-trilogy .row img, #original .row img, #clone .row img, #disney-purchase .row img {
-    max-width: 100%;
-  }
+.footer {
+    background-color: black;
+    padding: 3rem;
+}
 
-  h3 {
-    font-size: 1.5rem;
-    letter-spacing: .1rem;
-    font-weight: 700;
-    color: yellow;
-  }
+p {
+    font-size: .7rem;
+}
 
-  h4 {
-    font-size: 1rem;}
-  }
+@media (max-width: 768px) {
+    .banner h1 {
+        font-size: 1.5rem;
+        letter-spacing: .1rem;
+        font-weight: 700;
+        text-shadow: .1rem .1rem .3rem white;
+    }
+
+    .banner h3 {
+        font-size: 1rem;
+        letter-spacing: .1rem;
+        font-weight: 700;
+        text-shadow: .1rem .1rem .1rem white;
+        margin-top: 1rem;
+    }
+
+    img {
+        max-width: 100%;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+        letter-spacing: .1rem;
+        font-weight: 700;
+        color: yellow;
+    }
+
+    h4 {
+        font-size: 1rem;
+    }
+}
