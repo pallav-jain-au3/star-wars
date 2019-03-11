@@ -1,6 +1,5 @@
 body {
   color: white;
-  overflow-x: hidden;
   text-transform: uppercase;
 }
 
@@ -16,9 +15,12 @@ body {
 .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link:hover {
   color: yellow;
 }
+section{
+  padding: 1% 5%;
+}
 
 #home-page {
-  padding: 5%;
+
   background: url(../images/star-war-header.jpg);
   background-attachment: fixed;
   background-position: center center;
@@ -38,7 +40,7 @@ body {
   -o-background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  padding: 3%;
+
 }
 
 #clone {
@@ -50,7 +52,7 @@ body {
   -o-background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  padding: 3%;
+
 }
 
 #disney-purchase {
@@ -62,7 +64,7 @@ body {
   -o-background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  padding: 3%;
+
 }
 
 #sequel-trilogy {
@@ -74,7 +76,7 @@ body {
   -o-background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  padding: 3%;
+
 }
 
 #anthology {
@@ -86,7 +88,7 @@ body {
   -o-background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  padding: 5% 3%;
+
 }
 
 #anthology .row img, #sequel-trilogy .row img, #original .row img, #clone .row img, #disney-purchase .row img {
