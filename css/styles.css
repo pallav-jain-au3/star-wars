@@ -1,97 +1,168 @@
-body{
-
-  color:white;
+body {
+    color: white;
+    text-transform: uppercase;
 }
 
-
-section,footer{
-  width: 100%;
-  height: 30%;
-}
-#home-page
-{width: 100%;
-background: url(../images/star-war-header.jpg);
-background-attachment: fixed;
-background-position: center center;
-background-size: cover;
- -webkit-background-size: cover;
- -moz-background-size: cover;
- -o-background-size: cover;
-background-repeat: no-repeat;
-
-}
-#original  {
-   background: url(../images/original.png);
-  background-position: center center;
-  background-size: cover;
-   -webkit-background-size: cover;
-   -moz-background-size: cover;
-   -o-background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+.nav-link {
+    font-size: 1.3rem;
 }
 
-#original .original .original-card img
-{
-  width: 13rem;
+.nav-link {
+    color: white !important;
 }
-#prequel  {
-   background: url(../images/prequel-background.png);
-  background-position: center center;
-  background-size: cover;
-   -webkit-background-size: cover;
-   -moz-background-size: cover;
-   -o-background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+
+.nav-link:hover {
+    color: yellow !important;
 }
-#prequel .prequel .prequel-card img{
-  width: 13rem;
+
+section {
+    padding: 3% 6%;
 }
-#disney-purchase
-{
-background: url(../images/disney-purchase-background.jpg);
-  background-position: center center;
-  background-size: cover;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-repeat: no-repeat;
+
+#home-page {
+    background: url(../images/star-war-header.jpg);
     background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-repeat: no-repeat;
 }
-#sequel-trilogy{
 
-  background: url(../images/sequel-background.png);
-  background-position: center center;
-  background-size: cover;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-}
-#sequel-trilogy .sequel img{
-width: 13rem;}
-#anthology{
-background: url(../images/anth-background.jpg);
-  background-position: center center;
-  background-size: cover;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-}
-#anthology .anth img {
+#original {
+    background: url(../images/original.png);
+    background-position: center center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 
-  width: 13rem;
 }
-footer{
-  background-color: black;
+
+#clone {
+    background: url(../images/prequel-background.png);
+    background-position: center center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
 }
-h1{
-  color: yellow;
+
+#disney-purchase {
+    background: url(../images/disney-purchase-background.jpg);
+    background-position: center center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
 }
-.last img{
-  margin:2rem auto;
+
+#sequel-trilogy {
+    background: url(../images/sequel-background.png);
+    background-position: center center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+#anthology {
+    background: url(../images/anth-background.jpg);
+    background-position: center center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+#anthology .row img, #sequel-trilogy .row img, #original .row img, #clone .row img, #disney-purchase .row img {
+    width: 12rem;
+}
+
+h3 {
+    font-size: 2rem;
+    letter-spacing: .1rem;
+    font-weight: 700;
+    color: yellow;
+
+}
+
+h4 {
+    font-size: 1.5rem;
+}
+
+.banner img {
+    margin-top: 3rem;
+    max-width: 100%;
+}
+
+.banner h1 {
+    font-size: 3rem;
+    letter-spacing: .1rem;
+    font-weight: 700;
+    text-shadow: .1rem .1rem .3rem white;
+}
+
+.banner h3 {
+    font-size: 2.5rem;
+    letter-spacing: .1rem;
+    font-weight: 700;
+    text-shadow: .1rem .1rem .3rem white;
+    margin-top: 1rem;
+}
+
+.footer {
+    background-color: black;
+    padding: 3rem;
+}
+
+p {
+    font-size: .7rem;
+}
+
+@media (max-width: 768px) {
+    .banner h1 {
+        font-size: 1.5rem;
+        letter-spacing: .1rem;
+        font-weight: 700;
+        text-shadow: .1rem .1rem .3rem white;
+    }
+
+    .banner h3 {
+        font-size: 1rem;
+        letter-spacing: .1rem;
+        font-weight: 700;
+        text-shadow: .1rem .1rem .1rem white;
+        margin-top: 1rem;
+    }
+
+    img {
+        max-width: 100%;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+        letter-spacing: .1rem;
+        font-weight: 700;
+        color: yellow;
+    }
+
+    h4 {
+        font-size: 1rem;
+    }
 }
